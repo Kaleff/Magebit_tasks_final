@@ -1,0 +1,11 @@
+Duplicate of the text in the email.
+According to the provided suggested improvements.
+1. Router now checks for the correct HTTP method.
+2. Classloading now follows PSR-4 specification and autoloader was created via composer.
+3. Application entry point (index.php) is now stored in the /public/ folder.
+4. The responsibilities are now split between classes to follow a single responsibility principle.
+5. All the code is now strictly following PSR coding standards.
+6. .gitignore files were created in each repository to ignore local IDE cache files.
+7. Fixed an issue where some elements didn't have hover effects.
+8. JS email validation is cut out of the 3rd task, so that validation is done through PHP. You can check for the JS validation on the 2nd task or uncomment the code in /media/script/main.js
+9. /database page was polished and had several issues fixed and pagination doesn't conflict with search requests or sort requests anymore.
